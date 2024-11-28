@@ -1,0 +1,45 @@
+body {
+
+    .navbar > .container{
+        display: unset;
+    }
+    
+    .navbar-brand{
+        font-weight: 600;
+        text-transform: uppercase;
+
+    }
+    
+    h3.title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .news-body p{
+        color: #2f2f2f;
+
+    }
+
+    .news-header{
+        margin: 0 0 1rem 0;
+    }
+
+    .news-container img {
+        width: 100%;
+    }
+
+    .news-container {
+        padding:2rem 1rem;
+        cursor: pointer;
+    }
+
+    .news-container:hover{
+        color: #5b5858;
+    }
+
+    .news-footer p{
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+}
